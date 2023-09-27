@@ -73,7 +73,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="max-w-4xl mx-auto min-h-screen flex flex-col p-4 items-center overflow-hidden border relative">
+      <div className="max-w-4xl mx-auto flex flex-col p-4 items-center overflow-hidden border relative">
         <Preview
           number={state.preview.number}
           text={state.preview.text}
