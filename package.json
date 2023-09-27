@@ -1,7 +1,7 @@
 {
   "name": "gif-generator",
   "version": "0.1.0",
-  "private": true,
+  "author" : "Jayder Caceres <https://github.com/caceresjayder>", 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,10 +12,13 @@
     "autoprefixer": "10.4.16",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
+    "gif.js": "^0.2.0",
+    "html2canvas": "^1.4.1",
     "next": "13.5.2",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.32.6",
     "tailwindcss": "3.3.3"
   }
 }
